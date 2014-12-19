@@ -1,25 +1,12 @@
 JBoss Business Optimizer Demo 
 =============================
-
 Explore the running demo on OpenShift.
 
-Create an account at http://openshift.redhat.com
 
-Create a JBoss EAP 6 application
-
-    rhc app create optimizer -t jbosseap-6
-
-Add this upstream openshift-businesss-resource-optimizer repository
-
-    cd optimizer
-    
-    git remote add upstream -m master git://github.com/eschabell/openshift-business-resource-optimizer.git
- 
-    git pull -s recursive -X theirs upstream master
-
-Then push the repo upstream
-
-    git push
+Install with one click
+----------------------
+[![Click to install OpenShift](http://launch-shifter.rhcloud.com/launch/light/Click to
+install.svg)](https://openshift.redhat.com/app/console/application_type/custom?&cartridges[]=jbosseap-6&initial_git_url=https://github.com/eschabell/openshift-business-resource-optimizer.git&name=optimizer)
 
 That's it, you can now checkout your application at:
 
