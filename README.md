@@ -1,3 +1,6 @@
+Update: June 2018 moved to [Gitlab](https://gitlab.com/eschabell/openshift-business-resource-optimizer)
+
+
 JBoss Business Optimizer Demo 
 =============================
 Explore the running demo on OpenShift.
